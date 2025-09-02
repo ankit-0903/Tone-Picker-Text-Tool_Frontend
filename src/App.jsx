@@ -298,7 +298,7 @@ export default function App() {
     setError(null);
 
     try {
-      const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001/api/transform-tone';
+      const API_URL = import.meta.env.VITE_API_URL || 'https://tone-picker-text-tool-backend-elvcl8mo4.vercel.app/api/transform-tone';
       
       const response = await fetch(API_URL, {
         method: 'POST',
