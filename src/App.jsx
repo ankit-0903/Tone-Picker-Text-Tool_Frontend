@@ -110,7 +110,7 @@ export default function App() {
   ];
 
   return (
-    <div className="bg-slate-900 min-h-screen text-white font-sans p-4 sm:p-6 md:p-8 flex flex-col items-center selection:bg-indigo-500/30">
+    <div className="bg-slate-900 min-h-screen text-white font-sans p-4 sm:p-6 md:p-8 selection:bg-indigo-500/30">
       <div className="w-full max-w-7xl mx-auto">
         <header className="text-center mb-10">
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-indigo-500 pb-2">
